@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://1.bp.blogspot.com/-qVRkqrCkLGU/XWTCqaOZF5I/AAAAAAAAGjs/wvi2oT4D6pwkuCs0B3_wHLLeoM-4oQ24QCLcBGAs/s640/Mister%2BM%2BCam%2Bscan.jpg");
+  background-color: #ffffff;
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 400px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  font-size: 55px;
+  color: #000000;
+  margin: 0 0 10px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 50px;
+}
+
+.page-logo {
+  background-color: #000000;
+  width: 200px;
+}
+
+.alura-logo {
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 50px;
+  padding: 6px;
+  border-radius: 30px;
+  background: #d3d3d3;
+}
+
+button {
+  margin-top: 12px;
+  padding: 5px 8px;
+  border-radius: 15px;
+  background: #d3d3d3;
+}
+
+.resultado {
+  color: #000000;
+  text-align: center;
+  margin-top: 40px;
+}
